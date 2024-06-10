@@ -1,7 +1,7 @@
 import fs from "fs";
 
 //Converted Date-Time to file name format
-const date = new Date().toString();
+let date = new Date().toString();
 let textDate = date.toString();
 let txt = textDate.split(":").join("-");
 
